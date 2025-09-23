@@ -284,7 +284,7 @@
         extractScriptAttributes() {
             try {
                 // Look for both local and CDN script files
-                const scripts = document.querySelectorAll('script[src*="floradex.js"], script[src*="index.js"]');
+                const scripts = document.querySelectorAll('script[src*="cdn.pollenize.org.uk"], script[src*="floradex-js-snippet.vercel.app"]');
                 const script = Array.from(scripts).find(s => 
                     s.hasAttribute('data-project') || s.hasAttribute('data-theme')
                 );
@@ -1049,7 +1049,7 @@
             const defaultContainer = document.getElementById('floradex-widget-container');
             if (defaultContainer) {
                 // Check if there's a script tag with data attributes (check for both local and CDN URLs)
-                const scripts = document.querySelectorAll('script[src*="floradex.js"], script[src*="index.js"]');
+                const scripts = document.querySelectorAll('script[src*="floradex.js"], script[src*="index.js"], script[src*="floradex-js-snippet.vercel.app"]');
                 const scriptWithData = Array.from(scripts).find(s => {
                     return s.hasAttribute('data-project') || s.hasAttribute('data-theme');
                 });
