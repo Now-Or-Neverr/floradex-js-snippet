@@ -176,7 +176,7 @@
                 name: 'Abundant Life 1',
                 description: 'Abundant Life biodiversity project 1'
             },
-            'yelland-cross-farm-biodivesity-toolkit': {
+            'yelland-farm-biodivesity-toolkit': {
                 name: 'Yelland Farm Biodiversity Toolkit',
                 description: 'Yelland Farm Biodiversity Toolkit'
             },
